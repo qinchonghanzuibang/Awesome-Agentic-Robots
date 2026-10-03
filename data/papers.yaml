@@ -1,0 +1,2503 @@
+- id: arxiv:1909.12271
+  title: 'RLBench: The Robot Learning Benchmark & Learning Environment'
+  date: 2019-09
+  venue: RA-L
+  paper: https://arxiv.org/abs/1909.12271
+  project: null
+  code: https://github.com/stepjam/RLBench
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2009.12293
+  title: 'robosuite: A Modular Simulation Framework and Benchmark for Robot Learning'
+  date: 2020-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2009.12293
+  project: null
+  code: https://github.com/ARISE-Initiative/robosuite
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2209.07753
+  title: 'Code as Policies: Language Model Programs for Embodied Control'
+  date: 2022-09
+  venue: ICRA
+  paper: https://arxiv.org/abs/2209.07753
+  project: https://code-as-policies.github.io
+  code: https://github.com/google-research/google-research/tree/master/code_as_policies
+  categories:
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2306.03310
+  title: 'LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning'
+  date: 2023-06
+  venue: NeurIPS
+  paper: https://arxiv.org/abs/2306.03310
+  project: https://libero-project.github.io/main.html
+  code: https://github.com/Lifelong-Robot-Learning/LIBERO
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2306.15724
+  title: 'REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction'
+  date: 2023-06
+  venue: CoRL
+  paper: https://arxiv.org/abs/2306.15724
+  project: https://robot-reflect.github.io/
+  code: https://github.com/real-stanford/reflect
+  categories:
+  - harness.monitoring
+  - harness.recovery
+  boundary: false
+- id: arxiv:2307.00329
+  title: 'DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment'
+  date: 2023-07
+  venue: IROS
+  paper: https://arxiv.org/abs/2307.00329
+  project: https://sites.google.com/view/doremi-paper
+  code: null
+  categories:
+  - harness.monitoring
+  - harness.recovery
+  boundary: false
+- id: arxiv:2307.01928
+  title: 'Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners'
+  date: 2023-07
+  venue: CoRL
+  paper: https://arxiv.org/abs/2307.01928
+  project: https://robot-help.github.io
+  code: https://github.com/google-research/google-research/tree/master/language_model_uncertainty
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2307.04738
+  title: 'RoCo: Dialectic Multi-Robot Collaboration with Large Language Models'
+  date: 2023-07
+  venue: ICRA
+  paper: https://arxiv.org/abs/2307.04738
+  project: https://project-roco.github.io
+  code: https://github.com/MandiZhao/robot-collab
+  categories:
+  - model.planning
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2307.05973
+  title: 'VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models'
+  date: 2023-07
+  venue: CoRL
+  paper: https://arxiv.org/abs/2307.05973
+  project: https://voxposer.github.io
+  code: https://github.com/huangwl18/VoxPoser
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2307.06135
+  title: 'SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning'
+  date: 2023-07
+  venue: CoRL
+  paper: https://arxiv.org/abs/2307.06135
+  project: https://sayplan.github.io
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2310.12931
+  title: 'Eureka: Human-Level Reward Design via Coding Large Language Models'
+  date: 2023-10
+  venue: ICLR
+  paper: https://arxiv.org/abs/2310.12931
+  project: https://eureka-research.github.io
+  code: https://github.com/eureka-research/Eureka
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2311.01455
+  title: 'RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation'
+  date: 2023-11
+  venue: ICML
+  paper: https://arxiv.org/abs/2311.01455
+  project: https://robogen-ai.github.io/
+  code: https://github.com/Genesis-Embodied-AI/RoboGen
+  categories:
+  - data.collection
+  - environment.task_generation
+  boundary: false
+- id: arxiv:2403.09227
+  title: 'BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation'
+  date: 2024-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2403.09227
+  project: https://behavior.stanford.edu
+  code: https://github.com/StanfordVL/BEHAVIOR-1K
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2406.02523
+  title: 'RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots'
+  date: 2024-06
+  venue: RSS
+  paper: https://arxiv.org/abs/2406.02523
+  project: null
+  code: https://github.com/robocasa/robocasa
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2409.01652
+  title: 'ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation'
+  date: 2024-09
+  venue: CoRL
+  paper: https://arxiv.org/abs/2409.01652
+  project: https://rekep-robot.github.io/
+  code: https://github.com/huangwl18/ReKep
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2410.00371
+  title: 'AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation'
+  date: 2024-10
+  venue: ICLR
+  paper: https://arxiv.org/abs/2410.00371
+  project: https://aha-vlm.github.io/
+  code: https://github.com/NVlabs/AHA
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2410.22662
+  title: 'EMOS: Embodiment-aware Heterogeneous Multi-robot Operating System with LLM Agents'
+  date: 2024-10
+  venue: ICLR
+  paper: https://arxiv.org/abs/2410.22662
+  project: https://emos-project.github.io/
+  code: null
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2411.00081
+  title: 'PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks'
+  date: 2024-10
+  venue: ICLR
+  paper: https://arxiv.org/abs/2411.00081
+  project: null
+  code: https://github.com/facebookresearch/partnr-planner
+  categories:
+  - environment.task_generation
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2412.04455
+  title: 'Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection'
+  date: 2024-12
+  venue: CVPR
+  paper: https://arxiv.org/abs/2412.04455
+  project: https://zhoues.github.io/Code-as-Monitor
+  code: null
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2502.09886
+  title: 'Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos'
+  date: 2025-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2502.09886
+  project: https://yewr.github.io/video2policy
+  code: null
+  categories:
+  - data.collection
+  - environment.reconstruction
+  - environment.task_generation
+  boundary: false
+- id: arxiv:2502.13143
+  title: 'SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation'
+  date: 2025-02
+  venue: NeurIPS
+  paper: https://arxiv.org/abs/2502.13143
+  project: https://qizekun.github.io/sofar/
+  code: https://github.com/qizekun/SoFar
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2502.16707
+  title: 'Reflective Planning: Vision-Language Models for Multi-Stage Long-Horizon Robotic Manipulation'
+  date: 2025-02
+  venue: CoRL
+  paper: https://arxiv.org/abs/2502.16707
+  project: https://reflect-vlm.github.io
+  code: https://github.com/yunhaif/reflect-vlm
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2502.19417
+  title: 'Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models'
+  date: 2025-02
+  venue: ICML
+  paper: https://arxiv.org/abs/2502.19417
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2506.18088
+  title: 'RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic
+    Manipulation'
+  date: 2025-06
+  venue: ICML
+  paper: https://arxiv.org/abs/2506.18088
+  project: null
+  code: https://github.com/RoboTwin-Platform/RoboTwin
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2507.00833
+  title: 'HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning'
+  date: 2025-07
+  venue: NeurIPS
+  paper: https://arxiv.org/abs/2507.00833
+  project: https://openhumanoidgen.github.io
+  code: https://github.com/TeleHuman/HumanoidGen
+  categories:
+  - data.collection
+  boundary: false
+- id: arxiv:2509.15155
+  title: Self-Improving Embodied Foundation Models
+  date: 2025-09
+  venue: NeurIPS
+  paper: https://arxiv.org/abs/2509.15155
+  project: https://self-improving-efms.github.io
+  code: null
+  categories:
+  - model.adaptation
+  - data.collection
+  boundary: false
+- id: arxiv:2509.20070
+  title: 'LLM Trainer: Automated Robotic Data Generation via Demonstration Augmentation using LLMs'
+  date: 2025-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2509.20070
+  project: https://sites.google.com/andrew.cmu.edu/llm-trainer
+  code: null
+  categories:
+  - data.collection
+  - data.correction
+  boundary: false
+- id: arxiv:2510.03342
+  title: 'Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning, Thinking, and Motion
+    Transfer'
+  date: 2025-10
+  venue: arXiv
+  paper: https://arxiv.org/abs/2510.03342
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2510.03827
+  title: 'LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization'
+  date: 2025-10
+  venue: arXiv
+  paper: https://arxiv.org/abs/2510.03827
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2601.00675
+  title: 'RoboReward: General-Purpose Vision-Language Reward Models for Robotics'
+  date: 2026-01
+  venue: arXiv
+  paper: https://arxiv.org/abs/2601.00675
+  project: null
+  code: null
+  categories:
+  - data.filtering
+  - data.correction
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2601.02078
+  title: 'Genie Sim 3.0 : A High-Fidelity Comprehensive Simulation Platform for Humanoid Robot'
+  date: 2026-01
+  venue: arXiv
+  paper: https://arxiv.org/abs/2601.02078
+  project: null
+  code: https://github.com/AgibotTech/genie_sim
+  categories:
+  - environment.reconstruction
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2601.11063
+  title: 'EmboTeam: Grounding LLM Reasoning into Reactive Behavior Trees via PDDL for Embodied Multi-Robot Collaboration'
+  date: 2026-01
+  venue: arXiv
+  paper: https://arxiv.org/abs/2601.11063
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2601.14681
+  title: 'FARE: Fast-Slow Agentic Robotic Exploration'
+  date: 2026-01
+  venue: arXiv
+  paper: https://arxiv.org/abs/2601.14681
+  project: null
+  code: null
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2601.18492
+  title: 'DV-VLN: Dual Verification for Reliable LLM-Based Vision-and-Language Navigation'
+  date: 2026-01
+  venue: arXiv
+  paper: https://arxiv.org/abs/2601.18492
+  project: null
+  code: https://github.com/PlumJun/DV-VLN
+  categories:
+  - model.planning
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2601.19510
+  title: 'ALRM: Agentic LLM for Robotic Manipulation'
+  date: 2026-01
+  venue: arXiv
+  paper: https://arxiv.org/abs/2601.19510
+  project: https://tiiuae.github.io/ALRM
+  code: null
+  categories:
+  - model.planning
+  - harness.orchestration
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2601.20334
+  title: Demonstration-Free Robotic Control via LLM Agents
+  date: 2026-01
+  venue: arXiv
+  paper: https://arxiv.org/abs/2601.20334
+  project: null
+  code: https://github.com/robiemusketeer/faea-sim
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2601.20577
+  title: 'MeCo: Enhancing LLM-Empowered Multi-Robot Collaboration via Similar Task Memoization'
+  date: 2026-01
+  venue: AAMAS
+  paper: https://arxiv.org/abs/2601.20577
+  project: null
+  code: https://github.com/TomWang-NPU/MeCo
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2602.00551
+  title: 'APEX: A Decoupled Memory-based Explorer for Asynchronous Aerial Object Goal Navigation'
+  date: 2026-01
+  venue: CVPR
+  paper: https://arxiv.org/abs/2602.00551
+  project: null
+  code: https://github.com/4amGodvzx/apex
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2602.04157
+  title: A Modern System Recipe for Situated Embodied Human-Robot Conversation with Real-Time Multimodal LLMs and Tool-Calling
+  date: 2026-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2602.04157
+  project: null
+  code: null
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2602.06556
+  title: 'LIBERO-X: Robustness Litmus for Vision-Language-Action Models'
+  date: 2026-02
+  venue: RSS
+  paper: https://arxiv.org/abs/2602.06556
+  project: https://zackhxn.github.io/LIBERO-X/
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2602.09153
+  title: 'SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes'
+  date: 2026-02
+  venue: ICML
+  paper: https://arxiv.org/abs/2602.09153
+  project: https://scenesmith.github.io/
+  code: https://github.com/nepfaff/scenesmith
+  categories:
+  - environment.reconstruction
+  boundary: false
+- id: arxiv:2602.10116
+  title: 'SAGE: Scalable Agentic 3D Scene Generation for Embodied AI'
+  date: 2026-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2602.10116
+  project: null
+  code: null
+  categories:
+  - environment.reconstruction
+  boundary: false
+- id: arxiv:2602.12063
+  title: 'VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model'
+  date: 2026-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2602.12063
+  project: https://sites.google.com/view/vlaw-arxiv
+  code: null
+  categories:
+  - model.adaptation
+  boundary: false
+- id: arxiv:2602.12281
+  title: Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment
+  date: 2026-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2602.12281
+  project: null
+  code: null
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2602.13081
+  title: 'Agentic AI for Robot Control: Flexible but still Fragile'
+  date: 2026-02
+  venue: AAAI-SS
+  paper: https://arxiv.org/abs/2602.13081
+  project: https://dfki-ni.github.io/AGENTS-MAKE-2026
+  code: null
+  categories:
+  - model.planning
+  - harness.recovery
+  boundary: false
+- id: arxiv:2602.13193
+  title: Steerable Vision-Language-Action Policies for Embodied Reasoning and Hierarchical Control
+  date: 2026-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2602.13193
+  project: https://steerable-policies.github.io
+  code: https://github.com/steerable-policies/steerable-policies-bridge
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2602.13591
+  title: 'AgentRob: From Virtual Forum Agents to Hijacked Physical Robots'
+  date: 2026-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2602.13591
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2602.21198
+  title: 'Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs'
+  date: 2026-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2602.21198
+  project: https://reflective-test-time-planning.github.io
+  code: https://github.com/Reflective-Test-Time-Planning/Reflective-Test-Time-Planning
+  categories:
+  - model.planning
+  - model.adaptation
+  - data.correction
+  boundary: false
+- id: arxiv:2602.21670
+  title: Hierarchical LLM-Based Multi-Agent Framework with Prompt Optimization for Multi-Robot Task Planning
+  date: 2026-02
+  venue: arXiv
+  paper: https://arxiv.org/abs/2602.21670
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2602.22474
+  title: 'When to Act, Ask, or Learn: Uncertainty-Aware Policy Steering'
+  date: 2026-02
+  venue: RSS
+  paper: https://arxiv.org/abs/2602.22474
+  project: https://jessie-yuan.github.io/ups/
+  code: https://github.com/CMU-IntentLab/uncertainty_aware_policy_steering
+  categories:
+  - model.adaptation
+  - data.correction
+  boundary: false
+- id: arxiv:2603.02115
+  title: 'Robometer: Scaling General-Purpose Robotic Reward Models via Trajectory Comparisons'
+  date: 2026-03
+  venue: RSS
+  paper: https://arxiv.org/abs/2603.02115
+  project: https://robometer.github.io/
+  code: https://github.com/robometer/robometer
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2603.02623
+  title: 'Uni-Skill: Building Self-Evolving Skill Repository for Generalizable Robotic Manipulation'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.02623
+  project: null
+  code: null
+  categories:
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2603.02669
+  title: 'IMR-LLM: Industrial Multi-Robot Task Planning and Program Generation using Large Language Models'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.02669
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2603.02772
+  title: Agentic Self-Evolutionary Replanning for Embodied Navigation
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.02772
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - model.adaptation
+  - harness.memory
+  - harness.recovery
+  boundary: false
+- id: arxiv:2603.03148
+  title: 'From Language to Action: Can LLM-Based Agents Be Used for Embodied Robot Cognition?'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.03148
+  project: null
+  code: https://github.com/ShinasShaji/llm-robot-cognition
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2603.04356
+  title: 'RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.04356
+  project: null
+  code: https://github.com/robocasa/robocasa
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2603.04466
+  title: 'Act-Observe-Rewrite: Multimodal Coding Agents as In-Context Policy Learners for Robot Manipulation'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.04466
+  project: null
+  code: null
+  categories:
+  - harness.evolution
+  boundary: false
+- id: arxiv:2603.05377
+  title: 'OpenFrontier: General Navigation with Visual-Language Grounded Frontiers'
+  date: 2026-03
+  venue: RSS
+  paper: https://arxiv.org/abs/2603.05377
+  project: null
+  code: null
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2603.07892
+  title: 'RoboRouter: Training-Free Policy Routing for Robotic Manipulation'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.07892
+  project: null
+  code: null
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2603.07997
+  title: 'CMMR-VLN: Vision-and-Language Navigation via Continual Multimodal Memory Retrieval'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.07997
+  project: null
+  code: null
+  categories:
+  - model.adaptation
+  - harness.memory
+  boundary: false
+- id: arxiv:2603.10682
+  title: 'OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.10682
+  project: null
+  code: null
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2603.11558
+  title: 'RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.11558
+  project: null
+  code: https://github.com/RoboClaw-Robotics/RoboClaw
+  categories:
+  - data.collection
+  boundary: false
+- id: arxiv:2603.12939
+  title: 'RoboStream: Weaving Spatio-Temporal Reasoning with Memory in Vision-Language Models for Robotics'
+  date: 2026-03
+  venue: ECCV
+  paper: https://arxiv.org/abs/2603.12939
+  project: https://robostream123.github.io/
+  code: https://github.com/yu2hi13/RoboStream
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2603.13528
+  title: Learning Actionable Manipulation Recovery via Counterfactual Failure Synthesis
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.13528
+  project: https://dream2fix.github.io/
+  code: null
+  categories:
+  - data.filtering
+  - data.correction
+  - harness.recovery
+  boundary: false
+- id: arxiv:2603.18210
+  title: 'GoalVLM: VLM-driven Object Goal Navigation for Multi-Agent System'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.18210
+  project: null
+  code: null
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2603.18811
+  title: 'V-Dreamer: Automating Robotic Simulation and Trajectory Synthesis via Video Generation Priors'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.18811
+  project: null
+  code: null
+  categories:
+  - data.collection
+  boundary: false
+- id: arxiv:2603.22435
+  title: 'CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation'
+  date: 2026-03
+  venue: ICML
+  paper: https://arxiv.org/abs/2603.22435
+  project: https://capgym.github.io
+  code: null
+  categories:
+  - environment.benchmarking
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2603.26997
+  title: 'ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.26997
+  project: null
+  code: null
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2603.27416
+  title: 'Agent-Driven Autonomous Reinforcement Learning Research: Iterative Policy Improvement for Quadruped Locomotion'
+  date: 2026-03
+  venue: arXiv
+  paper: https://arxiv.org/abs/2603.27416
+  project: null
+  code: null
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2604.02318
+  title: 'Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning'
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.02318
+  project: null
+  code: null
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2604.04664
+  title: 'ROSClaw: A Hierarchical Semantic-Physical Framework for Heterogeneous Multi-Agent Collaboration'
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.04664
+  project: https://www.rosclaw.io/
+  code: https://github.com/ros-claw/rosclaw
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2604.05226
+  title: 'RoboPlayground: Democratizing Robotic Evaluation through Structured Physical Domains'
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.05226
+  project: https://roboplayground.github.io
+  code: null
+  categories:
+  - environment.reconstruction
+  - environment.task_generation
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2604.07395
+  title: A Physical Agentic Loop for Language-Guided Grasping with Execution-State Monitoring
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.07395
+  project: https://wenzewwz123.github.io/Agentic-Loop/
+  code: null
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2604.08664
+  title: Generative Simulation for Policy Learning in Physical Human-Robot Interaction
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.08664
+  project: https://rchi-lab.github.io/gen_phri/
+  code: null
+  categories:
+  - environment.task_generation
+  boundary: false
+- id: arxiv:2604.09860
+  title: 'RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies'
+  date: 2026-04
+  venue: RSS
+  paper: https://arxiv.org/abs/2604.09860
+  project: null
+  code: https://github.com/NVlabs/RoboLab
+  categories:
+  - environment.reconstruction
+  - environment.task_generation
+  - environment.benchmarking
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2604.10096
+  title: 'ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents'
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.10096
+  project: null
+  code: https://github.com/amap-cvlab/ABot-Claw
+  categories:
+  - harness.evolution
+  boundary: false
+- id: arxiv:2604.11975
+  title: 'M2HRI: An LLM-Driven Multimodal Multi-Agent Framework for Personalized Human-Robot Interaction'
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.11975
+  project: https://project-m2hri.github.io/
+  code: https://github.com/project-m2hri/m2hri
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2604.12872
+  title: 'OVAL: Open-Vocabulary Augmented Memory Model for Lifelong Object Goal Navigation'
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.12872
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2604.13533
+  title: Evolvable Embodied Agent for Robotic Manipulation via Long Short-Term Reflection and Optimization
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.13533
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - harness.memory
+  boundary: false
+- id: arxiv:2604.13942
+  title: 'Goal2Skill: Long-Horizon Manipulation with Adaptive Planning and Reflection'
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.13942
+  project: null
+  code: null
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2604.18271
+  title: 'EmbodiedLGR: Integrating Lightweight Graph Representation and Retrieval for Semantic-Spatial Memory in Robotic Agents'
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.18271
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2604.25788
+  title: 'KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning'
+  date: 2026-04
+  venue: RSS
+  paper: https://arxiv.org/abs/2604.25788
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2604.26988
+  title: Robot Planning and Situation Handling with Active Perception
+  date: 2026-04
+  venue: arXiv
+  paper: https://arxiv.org/abs/2604.26988
+  project: https://vap-tamp.github.io/vap-tamp/
+  code: null
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2605.00416
+  title: 'Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.00416
+  project: https://learning-while-deploying.github.io/
+  code: null
+  categories:
+  - model.adaptation
+  boundary: false
+- id: arxiv:2605.02600
+  title: 'CoRAL: Contact-Rich Adaptive LLM-based Control for Robotic Manipulation'
+  date: 2026-05
+  venue: RSS
+  paper: https://arxiv.org/abs/2605.02600
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2605.05241
+  title: 'DexSim2Real: Foundation Model-Guided Sim-to-Real Transfer for Generalizable Dexterous Manipulation'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.05241
+  project: null
+  code: null
+  categories:
+  - environment.reconstruction
+  boundary: false
+- id: arxiv:2605.09423
+  title: 'SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.09423
+  project: null
+  code: null
+  categories:
+  - environment.reconstruction
+  - environment.task_generation
+  boundary: false
+- id: arxiv:2605.10332
+  title: 'EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.10332
+  project: null
+  code: https://github.com/air-embodied-brain/EmbodiSkill
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2605.10921
+  title: 'RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.10921
+  project: https://robomemarena.github.io
+  code: https://github.com/OpenHelix-Team/RoboMemArena
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2605.11665
+  title: 'Nautilus: From One Prompt to Plug-and-Play Robot Learning'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.11665
+  project: null
+  code: null
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2605.11859
+  title: 'EvoNav: Evolutionary Reward Function Design for Robot Navigation with Large Language Models'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.11859
+  project: null
+  code: null
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2605.11951
+  title: 'From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation'
+  date: 2026-05
+  venue: RSS
+  paper: https://arxiv.org/abs/2605.11951
+  project: null
+  code: null
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2605.13119
+  title: Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.13119
+  project: null
+  code: null
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2605.14398
+  title: 'ChronoAgentic: A Code-based Multi-Agent World Simulator for Physically Grounded Simulation Construction'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.14398
+  project: https://uwsbel.github.io/chrono-agentic-website/
+  code: null
+  categories:
+  - environment.reconstruction
+  boundary: false
+- id: arxiv:2605.18729
+  title: 'Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.18729
+  project: https://robocortex66.github.io/robo-cortex/
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2605.26349
+  title: 'Closing the Loop in Teleoperation: Episode-Level Data Quality Assessment and Feedback for High-Quality Demonstration
+    Collection'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.26349
+  project: null
+  code: null
+  categories:
+  - data.filtering
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2605.26637
+  title: Enabling Extensible Embodied Capabilities with Tools
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2605.26637
+  project: https://racingemperor.github.io/manip-tool-hub/
+  code: null
+  categories:
+  - environment.benchmarking
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2606.00083
+  title: 'From Demonstrations to Rewards: Test-Time Prompt Optimization for VLM Reward Models'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.00083
+  project: null
+  code: https://github.com/cgumbsch/Demo2Reward
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2606.00104
+  title: 'PEACE: A Planner-Executor Agent with Constraint Enforcement for UAVs'
+  date: 2026-05
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.00104
+  project: null
+  code: https://github.com/erdemuysalx/PEACE
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2606.01672
+  title: 'RDA: Reward Design Agent for Reinforcement Learning'
+  date: 2026-06
+  venue: RLJ
+  paper: https://arxiv.org/abs/2606.01672
+  project: https://nitinkamra1992.github.io/reward-design-agent
+  code: null
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2606.02951
+  title: 'SCOPE: Real-Time Natural Language Camera Agent at the Edge'
+  date: 2026-06
+  venue: HRI
+  paper: https://arxiv.org/abs/2606.02951
+  project: null
+  code: null
+  categories:
+  - model.perception
+  - model.robot_control
+  boundary: false
+- id: arxiv:2606.04233
+  title: What Are We Actually Benchmarking in Robot Manipulation?
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.04233
+  project: https://ripl.github.io/manipulation_benchmark_audit/
+  code: https://github.com/ripl/ManipulationBenchmarkAudit
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2606.04811
+  title: 'Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.04811
+  project: null
+  code: https://github.com/showlab/Dream.exe
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2606.06061
+  title: A Conversational Framework for Human-Robot Collaborative Manipulation with Distributed Generative AI models
+  date: 2026-06
+  venue: RO-MAN
+  paper: https://arxiv.org/abs/2606.06061
+  project: null
+  code: https://github.com/cogrob-tuni/franka-llm
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2606.07723
+  title: 'VoLo: A Physical Orchestrator for Open-Vocabulary Long-Horizon Manipulation'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.07723
+  project: https://chicychen.github.io/VoLo/
+  code: https://github.com/NVlabs/VoLoAgent
+  categories:
+  - harness.orchestration
+  - harness.recovery
+  boundary: false
+- id: arxiv:2606.08610
+  title: 'HARBOR: A Harness Framework for Agentic Robot Reinforcement Learning'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.08610
+  project: null
+  code: null
+  categories:
+  - model.training
+  - environment.task_generation
+  boundary: false
+- id: arxiv:2606.09630
+  title: 'ReCoVLA: VLM-Guided Reward Compilation for Failure Recovery in Vision-Language-Action Policies'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.09630
+  project: null
+  code: null
+  categories:
+  - model.training
+  - harness.recovery
+  boundary: false
+- id: arxiv:2606.10267
+  title: 'What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.10267
+  project: http://jiahenghu.github.io/hi-vla
+  code: null
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2606.10577
+  title: 'AgenticNav: Zero-Shot Vision-and-Language Navigation as a Tool-Calling Harness'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.10577
+  project: null
+  code: null
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2606.12299
+  title: 'Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.12299
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2606.13497
+  title: 'SPARC: Reliable Spatial Annotations from Robot Demonstrations at Scale'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.13497
+  project: https://intuitive-robots.github.io/sparc-labeling/
+  code: https://github.com/intuitive-robots/sparc
+  categories:
+  - data.filtering
+  boundary: false
+- id: arxiv:2606.13578
+  title: 'LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.13578
+  project: https://zjunlp.github.io/LabVLA
+  code: https://github.com/zjunlp/LabVLA
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2606.16458
+  title: 'RHO: Your Coding Agent is Secretly a Roboticist'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.16458
+  project: https://rho-robotics.github.io
+  code: null
+  categories:
+  - harness.evolution
+  boundary: false
+- id: arxiv:2606.18247
+  title: Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement
+  date: 2026-06
+  venue: RSS
+  paper: https://arxiv.org/abs/2606.18247
+  project: https://veritas-improvement.github.io
+  code: https://github.com/princeton-prism/veritas
+  categories:
+  - model.adaptation
+  - data.filtering
+  boundary: false
+- id: arxiv:2606.18363
+  title: 'Guava: An Effective and Universal Harness for Embodied Manipulation'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.18363
+  project: https://guava-harness.github.io
+  code: null
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2606.18610
+  title: 'SC3-Eval: Evaluating Robot Foundation Models via Self-Consistent Video Generation'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.18610
+  project: https://weichengtseng.github.io/sc3-eval/
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2606.19419
+  title: Playful Agentic Robot Learning
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.19419
+  project: https://Playful-RATs.github.io
+  code: https://github.com/Playful-RATs/RATs
+  categories:
+  - data.collection
+  - environment.task_generation
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2606.19980
+  title: 'ENPIRE: Agentic Robot Policy Self-Improvement in the Real World'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.19980
+  project: null
+  code: https://github.com/NVlabs/ENPIRE
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2606.22142
+  title: 'RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.22142
+  project: https://robolineage.github.io/
+  code: https://github.com/robolineage/robolineage
+  categories:
+  - model.training
+  - data.collection
+  - data.filtering
+  boundary: false
+- id: arxiv:2606.23280
+  title: 'Causal Reward World Models: Zero-shot Reward Design for Automated Skill Generation'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.23280
+  project: https://yy12136.github.io/CRWM
+  code: null
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2606.23565
+  title: 'HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.23565
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2606.25115
+  title: 'Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.25115
+  project: null
+  code: null
+  categories:
+  - data.filtering
+  boundary: false
+- id: arxiv:2606.27871
+  title: 'LocalNav: Distilling Frontier VLMs and Embodied RL for On-Device Object Goal Navigation'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.27871
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2606.28276
+  title: 'SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2606.28276
+  project: null
+  code: null
+  categories:
+  - environment.reconstruction
+  boundary: false
+- id: arxiv:2606.31993
+  title: 'OopsieVerse: A Safety Benchmark with Damage-Aware Simulation for Robot Manipulation'
+  date: 2026-06
+  venue: RSS
+  paper: https://arxiv.org/abs/2606.31993
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2607.00272
+  title: 'ASPIRE: Agentic /Skills Discovery for Robotics'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.00272
+  project: https://research.nvidia.com/labs/gear/aspire/
+  code: https://github.com/NVlabs/ASPIRE
+  categories:
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2607.03449
+  title: 'HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control'
+  date: 2026-07
+  venue: ICML
+  paper: https://arxiv.org/abs/2607.03449
+  project: null
+  code: https://github.com/HappyWaterXP/HiMe
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2607.04162
+  title: 'ACE: Agentic Control for Embodied Manipulation via Zero-shot Workflow Reasoning'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.04162
+  project: null
+  code: null
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2607.04434
+  title: 'RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.04434
+  project: https://XPolicyLab.github.io
+  code: https://github.com/RoboDojo-Benchmark/RoboDojo
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2607.04610
+  title: 'RoboVista: Evaluating Vision Language Models for Diverse Robot Applications'
+  date: 2026-07
+  venue: RSS
+  paper: https://arxiv.org/abs/2607.04610
+  project: https://berkeleyautomation.github.io/robovista
+  code: null
+  categories:
+  - model.perception
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2607.05369
+  title: 'GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.05369
+  project: https://graph-robots.github.io/gap
+  code: https://github.com/graph-robots/graph-as-policy
+  categories:
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2607.05377
+  title: 'Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.05377
+  project: https://steinate.github.io/cortex.github.io
+  code: https://github.com/InternRobotics/Cortex
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2607.06256
+  title: Diagnosing Semantic Handoff Failures in Agent-Orchestrated Vision-Language-Action Skill Composition
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.06256
+  project: null
+  code: null
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2607.06501
+  title: Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning
+  date: 2026-07
+  venue: RSS
+  paper: https://arxiv.org/abs/2607.06501
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2607.06990
+  title: A Closed-Loop Multi-Agent Framework for Robust Multi-Robot Manipulation
+  date: 2026-07
+  venue: RSS
+  paper: https://arxiv.org/abs/2607.06990
+  project: null
+  code: null
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2607.07459
+  title: 'EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.07459
+  project: https://horizonrobotics.github.io/EmbodiedGen
+  code: https://github.com/HorizonRobotics/EmbodiedGen
+  categories:
+  - environment.reconstruction
+  boundary: false
+- id: arxiv:2607.08448
+  title: 'Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.08448
+  project: https://harnessvla.github.io/
+  code: https://github.com/RLinf/RPent
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2607.09776
+  title: 'HELP: Human-Efficient Large-Scale Robot Post-Training with Rollout Segmentation'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.09776
+  project: null
+  code: null
+  categories:
+  - data.filtering
+  boundary: false
+- id: arxiv:2607.10350
+  title: 'ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.10350
+  project: null
+  code: null
+  categories:
+  - harness.orchestration
+  - harness.memory
+  - harness.monitoring
+  - harness.evolution
+  boundary: false
+- id: arxiv:2607.10383
+  title: 'ABot-N1: Toward a General Visual Language Navigation Foundation Model'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.10383
+  project: https://amap-cvlab.github.io/ABot-Navigation/ABot-N1/
+  code: https://github.com/amap-cvlab/ABot-Navigation
+  categories:
+  - model.perception
+  - model.robot_control
+  boundary: false
+- id: arxiv:2607.11119
+  title: 'VIA: Visual Interface Agent for Robot Control'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.11119
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2607.11377
+  title: A Glimpse into Long-term Physical Coexistence with Intelligent Robots
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.11377
+  project: null
+  code: null
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2607.13049
+  title: 'SPINE: Bridging the Cyber-Physical Gap with Agentic AI'
+  date: 2026-06
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.13049
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  - harness.evolution
+  boundary: false
+- id: arxiv:2607.13653
+  title: 'Exploratory, Communicative, and Deployable: Vision-Driven Embodied Agents for Open-World Mobile Manipulation'
+  date: 2026-07
+  venue: ECCV
+  paper: https://arxiv.org/abs/2607.13653
+  project: null
+  code: https://github.com/InternRobotics/REAL
+  categories:
+  - data.collection
+  boundary: false
+- id: arxiv:2607.14047
+  title: 'Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.14047
+  project: https://open-gigaai.github.io/Zero2Skill
+  code: https://github.com/open-gigaai/Zero2Skill
+  categories:
+  - data.collection
+  - data.filtering
+  - data.correction
+  boundary: false
+- id: arxiv:2607.14252
+  title: 'MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.14252
+  project: https://yuzihaowashu.github.io/MEMORA/
+  code: https://github.com/yuzihaowashu/MEMORA
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2607.16636
+  title: 'PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical
+    Execution'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.16636
+  project: null
+  code: https://github.com/PhyAgentOS/PhyAgentOS-core
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2607.17213
+  title: 'Retriever: Composing the Perception-Reasoning-Action Loop for Long-Horizon Manipulation'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.17213
+  project: null
+  code: https://github.com/openretriever/retriever
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2607.18060
+  title: 'RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.18060
+  project: null
+  code: null
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2607.19190
+  title: 'Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.19190
+  project: https://agentic-real2sim.github.io/
+  code: https://github.com/agentic-real2sim/agentic_real2sim
+  categories:
+  - environment.reconstruction
+  boundary: false
+- id: arxiv:2607.21725
+  title: Addressing the Orchestration Gap in Generalist Robots via Physical Agency
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.21725
+  project: https://lianegalanti.github.io/Pigey/
+  code: https://github.com/lianegalanti/Pigey
+  categories:
+  - harness.orchestration
+  - harness.recovery
+  boundary: false
+- id: arxiv:2607.22014
+  title: Zero-Shot Mission-Level Evaluation for Aerial MLLM Agents
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.22014
+  project: https://gomtae.github.io/publications/missionbench
+  code: https://github.com/FraunhoferIVI/MissionBench
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2607.22832
+  title: 'MEMENTO: Memory-Guided Memetic Code-as-Policy Evolution'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.22832
+  project: null
+  code: https://github.com/sygkounas/MEMENTO
+  categories:
+  - model.robot_control
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2607.22999
+  title: 'WCM: World-Cognition Model for Generalizable Human-Robot Interaction'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.22999
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - harness.recovery
+  boundary: false
+- id: arxiv:2607.23532
+  title: Mission-Level Runtime Assurance for LLM-Assisted ISR Swarms over a Verification-Aware Fabric
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.23532
+  project: null
+  code: null
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2607.23784
+  title: 'A Few Words Go a Long Way: Language Guided Robot Policy Synthesis'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.23784
+  project: https://robo-architect.github.io/
+  code: https://github.com/robo-architect/architect-franka
+  categories:
+  - harness.memory
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2607.26148
+  title: 'Embodied Agents Take Control: Minimal-Interface Zero-Shot Agents Rival Industrial-Scale Policies in Vision-and-Language
+    Navigation'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.26148
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2607.26809
+  title: 'Practice Makes Policies: Bootstrapping and Consolidating Robotic Capabilities from Zero Human Demonstrations'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.26809
+  project: https://hero-agent.github.io/
+  code: null
+  categories:
+  - model.adaptation
+  - data.collection
+  boundary: false
+- id: arxiv:2607.29600
+  title: 'HAM-VLN: Harnessing Hierarchical Agentic Memory for Zero-Shot Vision-and-Language Navigation'
+  date: 2026-07
+  venue: arXiv
+  paper: https://arxiv.org/abs/2607.29600
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2608.02580
+  title: 'Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.02580
+  project: https://www-ye.github.io/ego2robot_blog/
+  code: null
+  categories:
+  - data.filtering
+  - data.correction
+  boundary: false
+- id: arxiv:2608.03924
+  title: 'ETA: A New Agentic Paradigm for Embodied Tasks'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.03924
+  project: null
+  code: https://github.com/OpenMOSS/OpenETA
+  categories:
+  - model.robot_control
+  - harness.recovery
+  boundary: false
+- id: arxiv:2608.04196
+  title: 'SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.04196
+  project: https://lin-nie.github.io/SiMDex/
+  code: null
+  categories:
+  - data.filtering
+  boundary: false
+- id: arxiv:2608.04933
+  title: 'Mimir: A Neuro-Symbolic Memory System with Dynamic Grounding for Embodied Agents in Interactive Environments'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.04933
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2608.07555
+  title: 'You Don''t Need To Stay in The Loop: An Agentic Robotics Loop for Robot-Policy Improvement'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.07555
+  project: null
+  code: null
+  categories:
+  - model.training
+  - harness.evolution
+  boundary: false
+- id: arxiv:2608.08036
+  title: Compiling and Benchmarking Task-State Horizons for Embodied Agents
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.08036
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2608.09410
+  title: 'Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.09410
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  - harness.evolution
+  boundary: false
+- id: arxiv:2608.09516
+  title: 'HarnessWAM: Bridging Prediction and Deliberation in World Action Models'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.09516
+  project: null
+  code: null
+  categories:
+  - harness.orchestration
+  - harness.recovery
+  boundary: false
+- id: arxiv:2608.11246
+  title: Towards the Harness of Embodied Agents
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.11246
+  project: https://eit-hai.github.io/thea
+  code: https://github.com/EIT-HAI/Thea
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2608.11350
+  title: Self-Evolving Embodied Agents via Skill-Harness Evolution
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.11350
+  project: null
+  code: null
+  categories:
+  - harness.evolution
+  boundary: false
+- id: arxiv:2608.14047
+  title: Evolve Vision-Language-Action Model into an Agent with On-the-fly Tool-use
+  date: 2026-08
+  venue: CVPR Findings
+  paper: https://arxiv.org/abs/2608.14047
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2608.15549
+  title: 'MistyPilot: Enabling Social-Robot Control through Multi-Agent LLM Skill Orchestration'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.15549
+  project: https://wangxiaoshawn.github.io/MistyPilot.html
+  code: https://github.com/WangXiaoShawn/MistyPilot
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2608.16590
+  title: 'Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.16590
+  project: https://air-embodied-brain.github.io/zetta
+  code: https://github.com/air-embodied-brain/Zetta-Embodiment
+  categories:
+  - harness.evolution
+  boundary: false
+- id: arxiv:2608.16889
+  title: 'Don''t Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.16889
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2608.17129
+  title: 'Probe: Manipulation-Grounded Visual Question Answering with VLM Agents'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.17129
+  project: null
+  code: null
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2608.17209
+  title: 'Teach and Grow: An Agent-Centered Architecture for General Robot Learning'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.17209
+  project: null
+  code: null
+  categories:
+  - data.collection
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2608.17386
+  title: 'ManiGuard: A Benchmark and Data Suite for Specification-Grounded Safety Evaluation and Improvement of Robotic Manipulation'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.17386
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2608.18227
+  title: Revisiting the "Push-T" Robot Manipulation Task with Agentic Robotics
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.18227
+  project: null
+  code: null
+  categories:
+  - harness.evolution
+  boundary: false
+- id: arxiv:2608.22657
+  title: 'Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.22657
+  project: null
+  code: https://github.com/Liuuuxy/physical-agentic-ai
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2608.26645
+  title: 'FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation'
+  date: 2026-08
+  venue: CVPR
+  paper: https://arxiv.org/abs/2608.26645
+  project: null
+  code: null
+  categories:
+  - data.correction
+  - harness.recovery
+  boundary: false
+- id: arxiv:2608.28300
+  title: 'MaCoPlanner: LLM-Assisted Manual-Compiled Task Planning with Proactive Safety Verification for Robotic Industrial
+    Panel Operation'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.28300
+  project: null
+  code: https://github.com/XinGP/MaCoPlanner
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2608.29896
+  title: 'EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy'
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.29896
+  project: null
+  code: null
+  categories: []
+  boundary: true
+- id: arxiv:2608.30396
+  title: Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation
+  date: 2026-08
+  venue: arXiv
+  paper: https://arxiv.org/abs/2608.30396
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - harness.orchestration
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.01281
+  title: 'EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.01281
+  project: null
+  code: null
+  categories:
+  - model.adaptation
+  - harness.orchestration
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2609.02653
+  title: 'HINT: Human-Intent Inception for Long-Horizon Robot Manipulation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.02653
+  project: https://robot-hint.github.io/
+  code: https://github.com/robot-hint/HINT
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2609.05178
+  title: 'LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.05178
+  project: https://liulin815.github.io/LIBERO-Recovery/
+  code: https://github.com/liulin815/LIBERO-Recovery
+  categories:
+  - environment.benchmarking
+  - harness.recovery
+  boundary: false
+- id: arxiv:2609.05927
+  title: 'GIF: Agentic Generation of Interactive and Functional Object Compositions for Robot Learning'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.05927
+  project: null
+  code: null
+  categories:
+  - data.collection
+  - data.filtering
+  - environment.reconstruction
+  boundary: false
+- id: arxiv:2609.05985
+  title: A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.05985
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2609.06424
+  title: 'OVMAN: A Task and Benchmark for Open-Vocabulary Motion-Aware Navigation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.06424
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2609.06508
+  title: 'VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action
+    Policies'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.06508
+  project: null
+  code: null
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2609.07047
+  title: 'MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.07047
+  project: null
+  code: https://github.com/Collab-Gen/MEMOBench
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2609.08292
+  title: 'EvoNav-Bench: Benchmarking Lifelong Navigation in Evolving Environments'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.08292
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2609.08402
+  title: 'Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.08402
+  project: null
+  code: null
+  categories:
+  - model.perception
+  - environment.benchmarking
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2609.08444
+  title: Safe Task Planning with Long-Term Graph Memory for Embodied Agents
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.08444
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - harness.memory
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2609.09808
+  title: 'GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.09808
+  project: https://gta2-project.github.io/
+  code: null
+  categories:
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2609.10522
+  title: 'Show-Harness: Just a VLM Agent Can Play Robots'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.10522
+  project: https://showlab.github.io/Show-Harness
+  code: https://github.com/showlab/Show-Harness
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2609.10895
+  title: 'ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.10895
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2609.11225
+  title: 'Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.11225
+  project: null
+  code: null
+  categories: []
+  boundary: true
+- id: arxiv:2609.11308
+  title: '2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.11308
+  project: null
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.11561
+  title: 'Memory as Plans: World-Action Modeling with Memory-Grounded Planning'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.11561
+  project: https://sizhezhao.github.io/projects/MaP-WAM/
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2609.12285
+  title: 'AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.12285
+  project: null
+  code: https://github.com/aryanmangal769/embodied-nav-mcp
+  categories:
+  - model.perception
+  boundary: false
+- id: arxiv:2609.12541
+  title: Agent as Policy for Robotic Manipulation
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.12541
+  project: null
+  code: null
+  categories:
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2609.13335
+  title: 'Bridging Thought and Action: Taming Long-Horizon Instability in Open-Source LLM Agents with a MetaTool-Enhanced
+    ROS Framework'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.13335
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.15195
+  title: 'HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.15195
+  project: null
+  code: null
+  categories:
+  - harness.recovery
+  boundary: false
+- id: arxiv:2609.15976
+  title: 'MessyMem: Learning-from-Doing Memory for Mobile Manipulation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.15976
+  project: https://messymem.github.io
+  code: null
+  categories:
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.16331
+  title: 'ManiSkillFormer: Demonstration-Free Compositional Manipulation via Geometric Contracts and Agentic Skill Graph'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.16331
+  project: https://patricia1019.github.io/ManiSkillFormer/
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2609.16346
+  title: 'Auto-HSI: Personalized human control of a robot swarm on demand by using LLMs for online automatic code generation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.16346
+  project: null
+  code: null
+  categories:
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2609.17210
+  title: 'FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.17210
+  project: null
+  code: https://github.com/FluxVLA/FluxVLA
+  categories:
+  - model.training
+  boundary: false
+- id: arxiv:2609.18435
+  title: 'WetRobo: A Reproducible Robot Kit for Coding Agents in Biological Laboratories'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.18435
+  project: null
+  code: https://github.com/tsudalab/WetRobo
+  categories:
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2609.18520
+  title: 'AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.18520
+  project: null
+  code: https://github.com/Admire-ljb/AeroWeaver
+  categories:
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2609.18869
+  title: 'KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.18869
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2609.19138
+  title: In-Context Robot Learning with VLM Agents
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.19138
+  project: https://cheng-haha.github.io/GPT-Policy/
+  code: https://github.com/cheng-haha/GPT-Policy
+  categories:
+  - model.robot_control
+  - model.adaptation
+  boundary: false
+- id: arxiv:2609.19315
+  title: 'GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.19315
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: arxiv:2609.19347
+  title: Kinematics-Grounded Agentic AI for Robotic Additive Manufacturing Process Planning
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.19347
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2609.19413
+  title: 'From Rollout to Reset: A Graph-Based Harness for Autonomous Long-Horizon Manipulation Evaluation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.19413
+  project: https://yy-gx.github.io/HALTER/
+  code: null
+  categories:
+  - environment.benchmarking
+  - harness.monitoring
+  - harness.recovery
+  boundary: false
+- id: arxiv:2609.19554
+  title: 'VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.19554
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false
+- id: arxiv:2609.19906
+  title: Learning and Transferring Closed-Loop Robot Software
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.19906
+  project: null
+  code: null
+  categories:
+  - harness.evolution
+  boundary: false
+- id: arxiv:2609.20056
+  title: 'MAGMA-GEN: Validated Recovery Supervision from Ambiguous Failures via Counterfactual Re-Execution'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.20056
+  project: https://magma-rob.github.io/magma-gen
+  code: https://github.com/MAGMA-rob/magma-gen
+  categories:
+  - data.filtering
+  - data.correction
+  boundary: false
+- id: arxiv:2609.20822
+  title: Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.20822
+  project: null
+  code: null
+  categories:
+  - harness.monitoring
+  boundary: false
+- id: arxiv:2609.22966
+  title: Transferring the Intelligence of VLMs to Robotic Control
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.22966
+  project: https://robodawn.top/
+  code: https://github.com/Hugo-AGI/RoboDawn
+  categories:
+  - model.robot_control
+  - model.adaptation
+  boundary: false
+- id: arxiv:2609.23997
+  title: 'RoboTalk: Learning Multi-Robot Communication and Coordination from Multimodal Demonstrations'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.23997
+  project: null
+  code: null
+  categories:
+  - data.collection
+  - harness.orchestration
+  boundary: false
+- id: arxiv:2609.24124
+  title: 'ActiveArena: Benchmarking and Understanding Active Perception in Robotic Manipulation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.24124
+  project: https://leeibo.github.io/ActiveArena
+  code: https://github.com/leeibo/ActiveArena
+  categories:
+  - model.planning
+  - environment.benchmarking
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.24563
+  title: 'ARSTAG: An Agentic Real2Sim2Real System for Task-Specific Robot Data Generation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.24563
+  project: https://boweili666.github.io/ARSTAG/
+  code: null
+  categories:
+  - data.collection
+  - data.filtering
+  - data.correction
+  - environment.reconstruction
+  - environment.task_generation
+  boundary: false
+- id: arxiv:2609.26360
+  title: Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.26360
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.26499
+  title: Generalizing Manipulation Skills with a Local Coding Agent
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.26499
+  project: https://rtalwar2.github.io/agentic-coding-for-robot-manipulation/
+  code: null
+  categories:
+  - model.robot_control
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2609.27308
+  title: 'EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.27308
+  project: https://embodiedswe.github.io/
+  code: https://github.com/EmbodiedSWE/EmbodiedSWE
+  categories:
+  - data.collection
+  - data.filtering
+  - environment.benchmarking
+  - harness.skill_synthesis
+  boundary: false
+- id: arxiv:2609.27526
+  title: 'NavProbe: Evidence-Grounded Reasoning with Active Memory Retrieval for Zero-Shot Navigation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.27526
+  project: null
+  code: null
+  categories:
+  - model.planning
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.27720
+  title: 'CoRelNav: Collaborative Relational Navigation for Multi-Robot Spatially Constrained Semantic Navigation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.27720
+  project: null
+  code: null
+  categories:
+  - model.perception
+  - model.planning
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.28247
+  title: Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.28247
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  boundary: false
+- id: arxiv:2609.28429
+  title: 'Watch, Recall, Act: Always-On Robots in Concurrent Embodied Streams'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.28429
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.29166
+  title: 'HarnessPAI: An Evolving Harness for Physical AI'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.29166
+  project: https://darwin-agent.github.io/HarnessPAI
+  code: null
+  categories:
+  - harness.orchestration
+  - harness.memory
+  - harness.evolution
+  boundary: false
+- id: arxiv:2609.29204
+  title: 'AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.29204
+  project: null
+  code: https://github.com/Haaareally/AdaHVLA-Adaptive_Harness_VLA
+  categories:
+  - harness.orchestration
+  - harness.memory
+  - harness.evolution
+  boundary: false
+- id: arxiv:2609.29389
+  title: 'Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.29389
+  project: null
+  code: null
+  categories:
+  - model.perception
+  - model.robot_control
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.29394
+  title: 'RACaP: Agentic Reasoning, Acting, and Coding as Policies for Evolvable Robot Learning'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.29394
+  project: null
+  code: null
+  categories:
+  - harness.orchestration
+  - harness.skill_synthesis
+  - harness.evolution
+  boundary: false
+- id: arxiv:2609.29964
+  title: 'World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.29964
+  project: null
+  code: null
+  categories:
+  - model.robot_control
+  - harness.memory
+  boundary: false
+- id: arxiv:2609.30249
+  title: 'RAPID: Robot Agentic Programming from Demonstrations'
+  date: 2026-09
+  venue: arXiv
+  paper: https://arxiv.org/abs/2609.30249
+  project: https://yuyaoliu.me/projects/rapid
+  code: null
+  categories:
+  - environment.reconstruction
+  - harness.skill_synthesis
+  boundary: false
+- id: doi:10.3389/fcomp.2026.1848830
+  title: 'STARS: extending interactive task learning with large language models'
+  date: 2026-08
+  venue: Front. Comput. Sci.
+  paper: https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1848830/full
+  project: null
+  code: https://github.com/Center-for-Integrated-Cognition/STARS
+  categories:
+  - model.planning
+  boundary: false
+- id: doi:10.3389/frobt.2026.1905578
+  title: 'PFEA: a VLM-based high-level natural language planning and feedback embodied agent for human-centered AI'
+  date: 2026-08
+  venue: Frontiers in Robotics and AI
+  paper: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1905578/full
+  project: null
+  code: null
+  categories: []
+  boundary: true
+- id: doi:10.3390/s26175595
+  title: Adaptive Task Planning for Long-Horizon Robotic Manipulation Based on Video Priors and Dynamic Scene Graphs
+  date: 2026-09
+  venue: Sensors
+  paper: https://www.mdpi.com/1424-8220/26/17/5595
+  project: null
+  code: null
+  categories:
+  - model.planning
+  boundary: false
+- id: iclr:2026-8833c8aa
+  title: 'ManipEvalAgent: Promptable and Efficient Evaluation Framework for Robotic Manipulation Policies'
+  date: 2026-04
+  venue: ICLR
+  paper: https://proceedings.iclr.cc/paper_files/paper/2026/file/8833c8aa10542d24d693bbaf6a4598f5-Paper-Conference.pdf
+  project: null
+  code: null
+  categories:
+  - environment.benchmarking
+  boundary: false

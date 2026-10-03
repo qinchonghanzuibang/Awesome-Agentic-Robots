@@ -1,0 +1,40 @@
+name: Paper suggestion
+description: Suggest a paper or resource for the survey companion collection.
+title: "[Paper] "
+body:
+  - type: input
+    id: paper-title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: paper-url
+    attributes:
+      label: Paper URL
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+  - type: input
+    id: categories
+    attributes:
+      label: Proposed category/categories
+      description: Use the domain and category names in the README taxonomy.
+      placeholder: Model / Planning; Harness / Orchestration
+    validations:
+      required: true
+  - type: input
+    id: project-url
+    attributes:
+      label: Project URL (optional)
+  - type: input
+    id: code-url
+    attributes:
+      label: Code URL (optional)
+  - type: textarea
+    id: fit
+    attributes:
+      label: Why it fits the collection
+      description: Explain the connection to the proposed categories in 1–3 sentences.
+    validations:
+      required: true
