@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Update only the marked paper-list region; preserve all editorial text."""
+from html import escape
 from urllib.parse import quote
 
 from validate import DOMAINS, ROOT, TAXONOMY, load_papers, validate
@@ -8,22 +9,21 @@ BEGIN = '<!-- BEGIN AUTO-GENERATED PAPER LIST -->'
 END = '<!-- END AUTO-GENERATED PAPER LIST -->'
 
 
-def cell(text):
-    # Escape Markdown syntax while retaining the exact displayed title.
-    for char in ('\\', '|', '[', ']', '*', '_', '`', '<', '>'):
-        text = text.replace(char, '\\' + char)
-    return text.replace('\n', ' ')
-
-
 def link(label, url):
-    return f'[{cell(label)}]({quote(url, safe=":/?#=&%+@~.-_")})'
+    target = escape(quote(url, safe=":/?#=&%+@~.-_"), quote=True)
+    return f'<a href="{target}">{escape(label)}</a>'
 
 
 def row(paper):
     resources = ' · '.join(link(label, paper[field]) for field, label in
                            [('project', 'Project'), ('code', 'Code')] if paper[field]) or '—'
     date = paper["date"].replace("-", "/")
-    return f'| {date} | {link(paper["title"], paper["paper"])} | {cell(paper["venue"])} | {resources} |'
+    return ('<tr>'
+            f'<td nowrap>{date}</td>'
+            f'<td>{link(paper["title"], paper["paper"])}</td>'
+            f'<td>{escape(paper["venue"])}</td>'
+            f'<td nowrap>{resources}</td>'
+            '</tr>')
 
 
 def sorted_papers(papers):
@@ -33,8 +33,14 @@ def sorted_papers(papers):
 
 
 def table(papers):
-    return ['| Date | Paper | Venue | Resources |', '| --- | --- | --- | --- |',
-            *(row(p) for p in sorted_papers(papers))]
+    # HTML width attributes survive README sanitization; inline CSS does not.
+    return ['<table width="100%">', '<thead><tr>',
+            '<th width="10%" align="left">Date</th>',
+            '<th width="65%" align="left">Paper</th>',
+            '<th width="10%" align="left">Venue</th>',
+            '<th width="15%" align="left">Resources</th>',
+            '</tr></thead>', '<tbody>',
+            *(row(p) for p in sorted_papers(papers)), '</tbody>', '</table>']
 
 
 def render(papers):
