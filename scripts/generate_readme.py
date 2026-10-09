@@ -15,30 +15,27 @@ def link(label, url):
 
 
 def row(paper):
-    resources = ' · '.join(link(label, paper[field]) for field, label in
-                           [('project', 'Project'), ('code', 'Code')] if paper[field]) or '—'
-    date = paper["date"].replace("-", "/")
+    code = link('Code', paper['code']) if paper['code'] else '—'
+    venue = escape(paper['venue']) + ' ' + str(paper['year'])[-2:]
+    if paper['publication_pending']:
+        venue += '<sup>*</sup>'
     return ('<tr>'
-            f'<td nowrap>{date}</td>'
             f'<td>{link(paper["title"], paper["paper"])}</td>'
-            f'<td>{escape(paper["venue"])}</td>'
-            f'<td nowrap>{resources}</td>'
+            f'<td>{venue}</td>'
+            f'<td>{code}</td>'
             '</tr>')
 
 
 def sorted_papers(papers):
-    # Year-only precision sorts conservatively at the start of that year.
-    return sorted(papers, key=lambda p: (-int(p['date'].replace('-', '').ljust(6, '0')),
-                                         p['title'].casefold(), p['id']))
+    return sorted(papers, key=lambda p: (-p['year'], p['title'].casefold(), p['id']))
 
 
 def table(papers):
     # HTML width attributes survive README sanitization; inline CSS does not.
     return ['<table width="100%">', '<thead><tr>',
-            '<th width="10%" align="left">Date</th>',
-            '<th width="65%" align="left">Paper</th>',
-            '<th width="10%" align="left">Venue</th>',
-            '<th width="15%" align="left">Resources</th>',
+            '<th width="75%" align="left">Paper</th>',
+            '<th width="15%" align="left">Venue</th>',
+            '<th width="10%" align="left">Code</th>',
             '</tr></thead>', '<tbody>',
             *(row(p) for p in sorted_papers(papers)), '</tbody>', '</table>']
 

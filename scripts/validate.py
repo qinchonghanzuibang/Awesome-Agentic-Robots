@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate the public collection locally; no network requests or writes."""
 from collections import Counter
+from datetime import date
 import re
 from pathlib import Path
 import sys
@@ -12,14 +13,13 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 DOMAINS = {
     'Model': ['Training', 'Perception', 'Planning', 'Robot Control', 'Adaptation'],
-    'Data': ['Collection', 'Filtering', 'Correction'],
+    'Data': ['Collection', 'Annotation', 'Refinement'],
     'Environment': ['Reconstruction', 'Task Generation', 'Benchmarking'],
-    'Harness': ['Orchestration', 'Memory', 'Monitoring', 'Recovery', 'Skill Synthesis', 'Evolution'],
+    'Harness': ['Orchestration', 'Memory', 'Monitoring and Recovery', 'Skills', 'Infrastructure', 'Layered Systems'],
 }
 TAXONOMY = {f'{domain.lower()}.{name.lower().replace(" ", "_")}': (domain, name)
             for domain, names in DOMAINS.items() for name in names}
-FIELDS = {'id', 'title', 'date', 'venue', 'paper', 'project', 'code',
-          'categories', 'boundary'}
+FIELDS = {'id', 'title', 'venue', 'year', 'publication_pending', 'paper', 'code', 'categories'}
 
 
 def normalize_title(title):
@@ -41,31 +41,31 @@ def validate(papers):
             raise ValueError('Record fields must match the documented public schema.')
         identity = p['id']
         if not isinstance(identity, str) or not re.fullmatch(
-                r'(?:arxiv:\d{4}\.\d{4,5}|doi:10\.\d{4,9}/\S+|(?:iclr|pmlr|work):[\w.-]+)', identity):
+                r'(?:arxiv:\d{4}\.\d{4,5}|doi:10\.\d{4,9}/\S+|(?:iclr|pmlr|cvf|work):[\w.-]+)', identity):
             raise ValueError(f'Invalid canonical ID: {identity!r}')
         if identity in ids:
             raise ValueError(f'Duplicate ID: {identity}')
         ids.add(identity)
-        for field in ('title', 'venue', 'date', 'paper'):
+        for field in ('title', 'venue', 'paper'):
             if not isinstance(p[field], str) or not p[field].strip():
                 raise ValueError(f'{identity}: missing {field}')
         title = normalize_title(p['title'])
         if not title or title in titles:
             raise ValueError(f'Suspicious duplicate normalized title: {identity}, {titles.get(title)}')
         titles[title] = identity
-        if not re.fullmatch(r'(?:19|20)\d{2}(?:-(?:0[1-9]|1[0-2]))?', p['date']):
-            raise ValueError(f'{identity}: expected YYYY or YYYY-MM date')
-        if type(p['boundary']) is not bool:
-            raise ValueError(f'{identity}: boundary must be boolean')
+        if type(p['year']) is not int or not 1900 <= p['year'] <= date.today().year:
+            raise ValueError(f'{identity}: expected a publication year')
+        if type(p['publication_pending']) is not bool:
+            raise ValueError(f'{identity}: publication_pending must be boolean')
         for field in ('categories',):
             values = p[field]
             if not isinstance(values, list) or any(not isinstance(v, str) for v in values):
                 raise ValueError(f'{identity}: {field} must be a list of category keys')
             if len(values) != len(set(values)) or set(values) - TAXONOMY.keys():
                 raise ValueError(f'{identity}: duplicate or unknown taxonomy key in {field}')
-        if p['boundary'] != (not p['categories']):
-            raise ValueError(f'{identity}: boundary works must have empty category lists')
-        for field in ('paper', 'project', 'code'):
+        if not p['categories']:
+            raise ValueError(f'{identity}: expected a visible manuscript category')
+        for field in ('paper', 'code'):
             url = p[field]
             if url is None and field != 'paper':
                 continue
@@ -88,18 +88,18 @@ def validate(papers):
 
 def summary(papers):
     counts = validate(papers)
-    indexed = [p for p in papers if not p['boundary']]
+    indexed = papers
     lines = ['Awesome Agentic Robots validation', '',
-             f'Landscape works: {len(papers)}', f'Indexed unique works: {len(indexed)}',
+             f'Indexed unique works: {len(indexed)}',
              f'Category placements: {sum(counts.values())}',
-             f'Boundary works: {len(papers) - len(indexed)}']
+             f'Publication pending: {sum(p["publication_pending"] for p in papers)}']
     for domain in DOMAINS:
         count = sum(any(TAXONOMY[c][0] == domain for c in p['categories']) for p in indexed)
         lines += ['', f'{domain} ({count} unique works):']
         lines += [f'  {name}: {counts[key]}' for key, (d, name) in TAXONOMY.items() if d == domain]
-    lines += ['', 'Metadata (all landscape works):']
+    lines += ['', 'Metadata:']
     lines += [f'  {field.title()} URLs: {sum(bool(p[field]) for p in papers)}'
-              for field in ('paper', 'project', 'code')]
+              for field in ('paper', 'code')]
     return '\n'.join(lines)
 
 

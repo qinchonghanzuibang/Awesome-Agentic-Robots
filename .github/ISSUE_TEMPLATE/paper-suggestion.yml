@@ -24,10 +24,6 @@ body:
     validations:
       required: true
   - type: input
-    id: project-url
-    attributes:
-      label: Project URL (optional)
-  - type: input
     id: code-url
     attributes:
       label: Code URL (optional)
